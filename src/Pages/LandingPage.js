@@ -7,7 +7,7 @@ class LandingPage extends Component {
         
         return <div className="landing-container">
             <div className="landing-top">
-                <h1>Helping Local Businesses Build <br /> Their Software</h1>  
+                <span className="text">Helping Local Businesses Build <br /> Their Software</span>  
             </div>
 
             <div className="landing-top-photo">

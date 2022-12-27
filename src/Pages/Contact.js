@@ -20,7 +20,7 @@ class Contact extends Component {
               <label className="form-label">Email Address</label> <br /> <input className="form-input-text" type="email" name="email" placeholder="me@example.com" /> <br />
               <label className="form-label">Name</label> <br /> <input className="form-input-text" type="text" name="name" placeholder="John Doe" /> <br />
               <label className="form-label">Reason</label> <br /> <input className="form-input-text" type="text" name="reason" placeholder="Consult, Tutoring, Work" /> <br />
-              <button className="form-button">Submit</button>
+              <button className="button">Submit</button>
             </form>
         </div>
   

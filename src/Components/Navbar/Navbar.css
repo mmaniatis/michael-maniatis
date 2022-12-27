@@ -1,21 +1,26 @@
-.mid {
-	display: inline-block; 
-	width: 100%;
-	margin: 0;
+.navbar {
+    display: flex;
+    align-items: center;
+	justify-content: space-between;
 }
 
-.navbar{
-	display:inline-block;
+.navbar-header {
+	display: flex;
+    justify-content: flex-start;
 }
 
-.navbar li{
-	list-style: none;
-	display:inline-block;
-	margin:auto;
+.navbar-links {
+	display: flex;
+    justify-self: flex-end;
 }
 
-.navbar li a{
-	text-decoration: none;
-	font-size: 20px;
-	padding:8px 20px;
+.navbar li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
 }
