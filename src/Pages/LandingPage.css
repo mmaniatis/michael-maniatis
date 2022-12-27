@@ -1,0 +1,15 @@
+.landing-container {
+    display:flex;
+    flex-flow: row wrap;
+}
+
+.landing-top {
+    flex:1 auto;
+    padding-left: 50px;
+    font-size: x-large;
+} 
+
+.landing-top-photo{
+    flex: 1 auto;
+    /* text-align: right; */
+}

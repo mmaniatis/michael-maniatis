@@ -12,15 +12,15 @@ class Contact extends Component {
     return (
       <div>
         <div className="top">
-          Please submit this forum and I will reply as soon as possible.
+          Please submit this form and I will reply as soon as possible.
         </div>
   
         <div className="left-middle">
             <form onSubmit={this.formHandler}>
-              <strong>Email:</strong> <br /> <input type="email" name="email" placeholder="me@example.com" /> <br />
-              <strong>Name:</strong> <br /> <input type="text" name="name" placeholder="John Doe" /> <br />
-              <strong>Reason:</strong> <br /> <input type="text" name="reason" placeholder="Consult, Tutoring, Work" /> <br />
-              <button className="btn btn-primary">Submit</button>
+              <label className="form-label">Email Address</label> <br /> <input className="form-input-text" type="email" name="email" placeholder="me@example.com" /> <br />
+              <label className="form-label">Name</label> <br /> <input className="form-input-text" type="text" name="name" placeholder="John Doe" /> <br />
+              <label className="form-label">Reason</label> <br /> <input className="form-input-text" type="text" name="reason" placeholder="Consult, Tutoring, Work" /> <br />
+              <button className="form-button">Submit</button>
             </form>
         </div>
   

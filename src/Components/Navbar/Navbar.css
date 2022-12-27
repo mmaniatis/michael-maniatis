@@ -1,5 +1,4 @@
 .mid {
-	background-color: #353935;
 	display: inline-block; 
 	width: 100%;
 	margin: 0;
@@ -17,11 +16,6 @@
 
 .navbar li a{
 	text-decoration: none;
-	color:lavender;
 	font-size: 20px;
 	padding:8px 20px;
-}
-
-.navbar li a:hover{
-	text-decoration: underline;
 }
