@@ -24,6 +24,68 @@ body {
 	background-color: #22303C;
 }
 
+.michael-man-form {
+  width:75%;
+  font-size: 30px;
+}
+
+.michael-man-form > input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 3px;
+  font-size: 15px;
+
+}
+
+.container {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.container > div {
+  width:100%;
+  padding-top: 50px;
+}
+
+.subcontainer-1-items {
+  display:flex;
+  flex: 0 1 100%;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+}
+
+.subcontainer-multiple-items {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.subcontainer-multiple-items-column {
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.subcontainer-item {
+  flex-basis: 25%;
+}
+
+.subcontainer-item > h1 {
+  font-size:40px;
+}
+
+.subcontainer-item > p {
+  font-size:25px;
+}
+
 .text {
 	font-size: 40px;
 }
@@ -53,10 +115,22 @@ body {
   font-size: 30px;
 }
 
+.michael-man-blurb {
+  overflow-wrap: break-word;
+  inline-size: 300px;
+  font-size:20px;
+  font-style: italic;
+}
+
+
 @media (max-width: 800px) {
-	.text {
-	  font-size: 20px;
-	}
+  * {
+    font-size: 98% !important;
+  }
+
+  .button {
+    font-size: 10px;
+  }
 
   div {
     height: 50%;

@@ -10,13 +10,12 @@ class Contact extends Component {
 
   render() {
     return (
-      <div>
-        <div className="top">
-          Please submit this form and we will reply as soon as possible.
+      <div className="container">
+        <div className="subcontainer-1-items">
+          <span className="text"> Please fill this form out and we will respond as soon as possible.</span>
         </div>
-  
-        <div className="left-middle">
-            <form onSubmit={this.formHandler}>
+        <div className="subcontainer-1-items">
+            <form className="michael-man-form" onSubmit={this.formHandler}>
               <label className="form-label">Email Address</label> <br /> <input className="form-input-text" type="email" name="email" placeholder="me@example.com" /> <br />
               <label className="form-label">Full Name</label> <br /> <input className="form-input-text" type="text" name="name" placeholder="John Doe" /> <br />
               <label className="form-label">Describe the Project</label> <br /> <input className="form-input-text" type="text" name="reason" placeholder="Consult, Tutoring, Work" /> <br />

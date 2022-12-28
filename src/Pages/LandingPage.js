@@ -10,21 +10,23 @@ import { Link } from 'react-router-dom';
 class LandingPage extends Component {
     render() {
         
-        return <div className="landing-container">
-            <div className="landing-top">
+        return <div className="container">
+            <div className="subcontainer-multiple-items">
                 <span className="text">Helping Local Businesses Build <br /> Their Software</span>  
                 <img className="landing-image" src={mainLogo} height="300px" width="300px"/>
-            
-                <div className="landing-top-blurb">
+            </div>
+
+            <div className="subcontainer-1-items">
+                <div className="michael-man-blurb">
                     <span>From new websites and automating daily business tasks to new features to your existing software, Michael Man Consulting will always deliver.</span>
                 </div>
             </div>
 
 
 
-            <div className="landing-middle-expertise">
+            <div className="subcontainer-multiple-items">
                 <div className="landing-middle-expertise-item">
-                    <Link to="/clientSupport">
+                    <Link to="/client-support">
                         <img src={clientSupport} height="150px" width="200px"/>
                         <span className="expertise-header">Client Support</span>
                         <span className="expertise-description">As our business partner & teammate we will work with you to address any questions and concerns. 24/7 support from the developer who built the software directly.</span>
@@ -33,7 +35,7 @@ class LandingPage extends Component {
                 </div>
 
                 <div className="landing-middle-expertise-item">
-                    <Link to="/softwareConsulting">
+                    <Link to="/software-development">
                         <img className="site-image" src={softwareConsultLogo} height="150px" width="200px"/>
                         <span className="expertise-header">Software Development</span>
                         <span className="expertise-description">We will leverage our years of professional experience to ensure your projects are completed quickly and correctly.</span>
@@ -41,7 +43,7 @@ class LandingPage extends Component {
                 </div>
             
                 <div className="landing-middle-expertise-item">
-                    <Link to="/softwareConsulting">
+                    <Link to="/software-consultation">
                         <img src={communication} height="150px" width="200px"/>
                         <span className="expertise-header">Software Consultation</span>
                         <span className="expertise-description">Our experts can work with your current Software Engineers, bringing our vast experience to the table to identify solutions.</span>
