@@ -2,11 +2,20 @@
     display: flex;
     align-items: center;
 	justify-content: space-between;
+    overflow-y: scroll;
+    flex: 0 0 auto;
+    position: sticky;
+    top: 0;
+    background-color: #22303C;
 }
 
 .navbar-header {
 	display: flex;
     justify-content: flex-start;
+    flex-direction: column;
+    vertical-align: top;
+    text-align: center;
+
 }
 
 .navbar-links {

@@ -49,6 +49,10 @@ body {
 }
 
 
+.company-logo {
+  font-size: 30px;
+}
+
 @media (max-width: 800px) {
 	.text {
 	  font-size: 20px;
